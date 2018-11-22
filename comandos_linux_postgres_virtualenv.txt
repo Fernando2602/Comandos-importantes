@@ -1,0 +1,18 @@
+Linux terminal
+cd: entrar a una carpeta
+ls: ver los archivos y directorios en tu directorio actual
+pwd: ver tu ruta acual
+mkdir: crear una carpeta nueva
+~/: ir a la raiz
+mv: cambiar el nombre de un archivo. Ej: mv nombreactual nombrequequieresestablecer
+
+crear un nuevo entorno virtual con virtualenv
+virtualenv --python=python3.7 nombredelentornovirtual
+(cambiar python3.7 por la version que desees instalar)
+
+Postgres
+psql: sirve para empezar a escribir comandos 
+\l: ver las bases de datos existentes
+\c nombredelabasededatos: entrar a una base de datos especifica
+\dt: una vez dentro de una base de datos sirve para ver todas las tablas dentro de esta
+
