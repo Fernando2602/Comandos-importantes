@@ -5,6 +5,7 @@ pwd: ver tu ruta acual
 mkdir: crear una carpeta nueva
 ~/: ir a la raiz
 mv: cambiar el nombre de un archivo. Ej: mv nombreactual nombrequequieresestablecer
+rm -r mydir: eliminar un directorio y sus archivos
 
 crear un nuevo entorno virtual con virtualenv
 virtualenv --python=python3.7 nombredelentornovirtual
