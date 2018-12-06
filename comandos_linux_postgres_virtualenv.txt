@@ -6,7 +6,8 @@ mkdir: crear una carpeta nueva
 ~/: ir a la raiz
 mv: cambiar el nombre de un archivo. Ej: mv nombreactual nombrequequieresestablecer
 rm: eliminar un archivo
-rm -r mydir: eliminar un directorio y sus archivos
+rm -r directorio: eliminar un directorio y sus archivos
+cp: Copiar un archivo. Ej: cp nombreactual nombredelacopia
 
 crear un nuevo entorno virtual con virtualenv
 virtualenv --python=python3.7 nombredelentornovirtual
