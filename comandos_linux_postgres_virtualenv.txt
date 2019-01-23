@@ -14,8 +14,11 @@ virtualenv --python=python3.7 nombredelentornovirtual
 (cambiar python3.7 por la version que desees instalar)
 
 Postgres
-psql: sirve para empezar a escribir comandos 
+sudo -u postgres psql: sirve para empezar a escribir comandos 
 \l: ver las bases de datos existentes
 \c nombredelabasededatos: entrar a una base de datos especifica
 \dt: una vez dentro de una base de datos sirve para ver todas las tablas dentro de esta
-
+\du: ver los usuarios
+\q: salirte de la base de datos
+DROP USER [ IF EXISTS ] name: eliminar un usuario
+CREATE USER myprojectuser WITH PASSWORD 'password': crear un usuario
